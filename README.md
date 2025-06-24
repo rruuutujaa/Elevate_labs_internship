@@ -7,33 +7,35 @@ This repository contains the solution for Task 1 of the Java Developer Internshi
 Build a basic calculator using Java console I/O that can perform arithmetic operations with proper error handling and user interaction.
 
 🛠️ Tools & Technologies Used
+
 Language: Java
-IDE: Any Java-compatible IDE (IntelliJ IDEA, Eclipse, VS Code, etc.)
+
+IDE: Any Java-compatible IDE (IntelliJ IDEA)
+
 Runtime: Java Development Kit (JDK)
+
 Terminal/Command Prompt for execution
-📁 Project Structure
-java-console-calculator/
-├── src/
-│   └── ConsoleCalculator.java
-├── screenshots/
-│   ├── calculator-menu.png
-│   ├── addition-example.png
-│   ├── division-by-zero-error.png
-│   └── program-flow.png
-├── README.md
-└── .gitignore
+
+
+
 ✨ Features Implemented
 Core Functionality
 ✅ Addition - Adds two numbers
 ✅ Subtraction - Subtracts second number from first
 ✅ Multiplication - Multiplies two numbers
 ✅ Division - Divides first number by second with error handling
+
+
+
 Technical Features
 ✅ Method-based architecture - Separate methods for each operation
 ✅ Scanner input handling - Safe user input with validation
 ✅ Continuous operation loop - Allows multiple calculations
 ✅ Error handling - Handles division by zero and invalid inputs
 ✅ User-friendly interface - Clear menu and prompts
+
+
+
 🚀 How to Run
 Prerequisites
 Java Development Kit (JDK) 8 or higher installed
@@ -49,6 +51,10 @@ javac src/ConsoleCalculator.java
 Run the program
 bash
 java -cp src ConsoleCalculator
+
+
+
+
 Follow the on-screen prompts to perform calculations
 💡 Usage Examples
 Basic Operations
@@ -67,6 +73,10 @@ Choose an operation (1-5): 4
 Enter first number: 10
 Enter second number: 0
 Error: Division by zero is not allowed!
+
+
+
+
 🧠 Key Concepts Demonstrated
 Object-Oriented Programming
 Class structure with proper encapsulation
@@ -77,6 +87,9 @@ Scanner class for user input
 Data types (double, int, boolean, String)
 Control structures (loops, conditionals, switch statements)
 Exception handling for robust error management
+
+
+
 Best Practices
 Input validation to prevent crashes
 Clear method naming for readability
