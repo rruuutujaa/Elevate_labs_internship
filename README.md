@@ -36,23 +36,6 @@ Technical Features
 
 
 
-🚀 How to Run
-Prerequisites
-Java Development Kit (JDK) 8 or higher installed
-Command line/terminal access
-Steps
-Clone the repository
-bash
-git clone https://github.com/yourusername/java-console-calculator.git
-cd java-console-calculator
-Compile the Java file
-bash
-javac src/ConsoleCalculator.java
-Run the program
-bash
-java -cp src ConsoleCalculator
-
-
 
 
 Follow the on-screen prompts to perform calculations
