@@ -1,104 +1,76 @@
-# Elevate_labs_internship Task 1
-Java Console Calculator - Internship Task 1
-📋 Task Overview
-This repository contains the solution for Task 1 of the Java Developer Internship program. The objective was to build a basic calculator using Java console I/O that demonstrates fundamental programming concepts.
+🚀 Java Developer Internship - Elevate Labs
+Complete solutions for Task 1 and Task 2 of the Java Developer Internship program.
 
-🎯 Objective
-Build a basic calculator using Java console I/O that can perform arithmetic operations with proper error handling and user interaction.
+🧮 Task 1: Java Console Calculator
+Built a fully functional calculator using Java console I/O with continuous operation capability.
 
-🛠️ Tools & Technologies Used
-
-Language: Java
-
-IDE: Any Java-compatible IDE (IntelliJ IDEA)
-
-Runtime: Java Development Kit (JDK)
-
-Terminal/Command Prompt for execution
-
-
-
-✨ Features Implemented
-Core Functionality
-✅ Addition - Adds two numbers
-✅ Subtraction - Subtracts second number from first
-✅ Multiplication - Multiplies two numbers
-✅ Division - Divides first number by second with error handling
-
-
-
-Technical Features
-✅ Method-based architecture - Separate methods for each operation
-✅ Scanner input handling - Safe user input with validation
-✅ Continuous operation loop - Allows multiple calculations
-✅ Error handling - Handles division by zero and invalid inputs
-✅ User-friendly interface - Clear menu and prompts
-
-
-
-
-
-Follow the on-screen prompts to perform calculations
-💡 Usage Examples
-Basic Operations
+What I Built
+Basic arithmetic operations - Addition, Subtraction, Multiplication, Division
+Method-based architecture - Separate methods for each operation
+Continuous loop system - Perform multiple calculations without restarting
+Error handling - Division by zero protection and invalid input management
+Clean user interface - Numbered menu with clear prompts
+Sample Output
 === Java Console Calculator ===
 1. Addition (+)
 2. Subtraction (-)
 3. Multiplication (*)
 4. Division (/)
 5. Exit
+
 Choose an operation (1-5): 1
 Enter first number: 15.5
 Enter second number: 10.3
 Result: 15.50 + 10.30 = 25.80
-Error Handling
-Choose an operation (1-5): 4
-Enter first number: 10
-Enter second number: 0
-Error: Division by zero is not allowed!
+🎓 Task 2: Student Record Management System
+Created a comprehensive CLI-based CRUD application for managing student records with advanced features.
 
-
-
-
-🧠 Key Concepts Demonstrated
-Object-Oriented Programming
-Class structure with proper encapsulation
-Method organization for different functionalities
-Constructor usage for initialization
-Java Fundamentals
-Scanner class for user input
-Data types (double, int, boolean, String)
-Control structures (loops, conditionals, switch statements)
+What I Built
+Complete CRUD operations - Add, View, Update, Delete student records
+Search functionality - Find students by name with partial matching
+Sorting system - Sort students by marks (highest to lowest)
+Statistics dashboard - View average marks, top student, and analytics
+Data validation - Input validation for names (non-empty) and marks (0-100)
+Professional interface - Formatted tables, confirmation dialogs, and user-friendly menus
+Sample Interface
+==================================================
+                    MAIN MENU
+==================================================
+1. 📝 Add New Student
+2. 👀 View All Students
+3. ✏️ Update Student Record
+4. 🗑️ Delete Student Record
+5. 🔍 Search Student by Name
+6. 📊 Sort Students by Marks
+7. 📈 Show Statistics
+8. 🚪 Exit
+==================================================
+Technical Implementation
+Student Class with encapsulated fields (ID, name, marks)
+ArrayList for dynamic data storage
+Auto-incrementing ID system using static variables
 Exception handling for robust error management
+Collections framework for sorting operations
+🚀 How to Run
+Prerequisites
+Java Development Kit (JDK) 8 or higher
+Quick Start
+Clone the repository
+bash
+git clone https://github.com/rutujatamboli/java-developer-internship-tasks.git
+Run Task 1
+bash
+javac Calculator.java
+java Calculator
+Run Task 2
+bash
+javac StudentRecordSystem.java
+java StudentRecordSystem
 
-
-
-Best Practices
-Input validation to prevent crashes
-Clear method naming for readability
-Proper resource management (Scanner closing)
-User experience considerations
-🎓 Learning Outcomes
-Through this project, I demonstrated understanding of:
-
-Java syntax and basic programming constructs
-Console I/O operations using Scanner
-Method creation and organization
-Error handling techniques
-Loop structures for continuous operation
-User interface design principles
-
-📝 Notes
-The program uses double data type for decimal number support
-Input validation prevents common user errors
-Division by zero is handled gracefully without program termination
-The calculator continues running until user chooses to exit
 👨‍💻 Author
-Your Name:rutuja tamboli
-Java Developer Internship Candidate
-Demonstrating core Java programming skills through practical implementation
+Rutuja Tamboli
+Java Developer Internship - Elevate Labs
+June 24-25, 2025
 
-Date Created: 24 June 2025
-Task: Java Developer Internship - Task 1
-Status: ✅ Completed
+Both projects demonstrate progression from basic Java fundamentals to advanced object-oriented programming and data management.
 
